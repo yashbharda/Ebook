@@ -25,3 +25,14 @@ Technologies Used
    
    - NetBeans IDE
 
+- Features
+  
+  - User authentication and authorization
+
+ - Upload e-books
+
+ - Manage book details (title, author, category, etc.)
+
+ - Search and filter e-books
+
+ - Responsive design for various devices
