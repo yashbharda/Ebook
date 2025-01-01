@@ -36,3 +36,25 @@ Technologies Used
   - Search and filter e-books
 
   - Responsive design for various devices
+
+- Technologies Used
+
+  - Front-end
+
+    - JSP (Java Server Pages)
+
+    - Servlets
+
+    - HTML, CSS, and JavaScript for additional UI enhancements
+
+  - Back-end
+      
+      - MySQL database for storing e-book data and user information
+
+ - Tools and Frameworks
+   
+   - Apache Tomcat server
+
+   - JDBC for database connectivity
+
+   - NetBeans IDE         
