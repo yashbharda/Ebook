@@ -57,4 +57,8 @@ Technologies Used
 
    - JDBC for database connectivity
 
-   - NetBeans IDE         
+   - NetBeans IDE
+
+- Project Link
+   - https://github.com/yashbharda/Ebook.git
+     
