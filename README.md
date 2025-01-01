@@ -29,10 +29,10 @@ Technologies Used
   
   - User authentication and authorization
 
- - Upload e-books
+  - Upload e-books
 
- - Manage book details (title, author, category, etc.)
+  - Manage book details (title, author, category, etc.)
 
- - Search and filter e-books
+  - Search and filter e-books
 
- - Responsive design for various devices
+  - Responsive design for various devices
