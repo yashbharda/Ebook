@@ -1,0 +1,20 @@
+# Use OpenJDK base image
+FROM openjdk:17-jdk
+
+# Install Tomcat
+RUN apt-get update && apt-get install -y wget \
+    && wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.62/bin/apache-tomcat-9.0.62.tar.gz \
+    && tar xvf apache-tomcat-9.0.62.tar.gz \
+    && mv apache-tomcat-9.0.62 /usr/local/tomcat
+
+# Set working directory to Tomcat's webapps
+WORKDIR /usr/local/tomcat/webapps/
+
+# Copy your WAR file (or directory) into Tomcat's webapps folder
+COPY ./target/*.war /usr/local/tomcat/webapps/ROOT.war
+
+# Expose port 8080
+EXPOSE 8080
+
+# Start Tomcat
+CMD ["/usr/local/tomcat/bin/catalina.sh", "run"]
