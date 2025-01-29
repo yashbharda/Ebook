@@ -2,7 +2,7 @@ services:
   - type: web
     name: ebook-management
     buildCommand: javac -d target src/**/*.java
-    startCommand: java -cp target index.jsp
+    startCommand: java -cp target ServletLogin
     envVars:
       - key: JAVA_VERSION
         value: 17
