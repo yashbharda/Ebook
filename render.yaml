@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ebook-management
+    runtime: java
+    buildCommand: mvn clean package
+    startCommand: java -jar target/*.war
+    envVars:
+      - key: JAVA_VERSION
+        value: 17
